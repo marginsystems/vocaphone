@@ -61,7 +61,6 @@
 		2526B8D1B9C721FB3DF83A9F /* SnippetExpander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247ACC1CA43648BE4449042 /* SnippetExpander.swift */; };
 		25A9766454D6E24C9AD7BF2B /* CustomVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AA9291707DE7366D08EB0C /* CustomVocabulary.swift */; };
 		25C5A0ECE99BDF5D850C959E /* StatsSharePasteboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A625066A8990A867FF552F12 /* StatsSharePasteboardTests.swift */; };
-		4A4E7F2D8A1C4D7E9B6F3021 /* StatsShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978D103DB7CEA2D29A546C1 /* StatsShare.swift */; };
 		282E28F25550DF3BFB996429 /* SwipeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C4BD2142E9377F123A8848 /* SwipeRecognizer.swift */; };
 		2835994232D6867BC96CD41F /* SnippetExpander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1247ACC1CA43648BE4449042 /* SnippetExpander.swift */; };
 		28C271BC0195C62E93292A9C /* SessionRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854354D06D0111DEB123E7A /* SessionRecordTests.swift */; };
@@ -124,6 +123,7 @@
 		4700DB7F7BE95078E7A8A563 /* TypingFieldPolicyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE3CB8FFE4DDA7B459C2A7 /* TypingFieldPolicyTests.swift */; };
 		482A8494DA8A03BDB5DF1B0E /* LocalTranscriptionPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FF1A5ABC4220C886291309 /* LocalTranscriptionPreferences.swift */; };
 		49305C17EF54D17EE77251F0 /* SherpaEmptyChunkRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF256CF6ED209E00193BF135 /* SherpaEmptyChunkRecovery.swift */; };
+		4A4E7F2D8A1C4D7E9B6F3021 /* StatsShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978D103DB7CEA2D29A546C1 /* StatsShare.swift */; };
 		4AC2A4D5727E00C1A4806F1F /* suggestions.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 9532218075A83B4122807217 /* suggestions.tsv */; };
 		4BF2126048D9E40C8999241D /* KeyboardHapticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97639A09609D9E6E76153CDB /* KeyboardHapticsTests.swift */; };
 		4C26EF1A498140E6AEE51D86 /* en-bigrams.txt in Resources */ = {isa = PBXBuildFile; fileRef = DC98427A2C06BE9FD63CACF1 /* en-bigrams.txt */; };
