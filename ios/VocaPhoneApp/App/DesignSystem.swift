@@ -1,6 +1,19 @@
 import SwiftUI
 import UIKit
 
+struct BrandMark: View {
+    let size: CGFloat
+
+    var body: some View {
+        Image("BrandMark")
+            .resizable()
+            .renderingMode(.template)
+            .foregroundStyle(Color.brand)
+            .scaledToFit()
+            .frame(width: size, height: size)
+    }
+}
+
 /// The small set of shapes the app composes screens from.
 ///
 /// Deliberately small. The design standard asks for one token layer and native
