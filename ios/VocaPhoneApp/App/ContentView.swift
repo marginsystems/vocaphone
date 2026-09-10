@@ -457,19 +457,6 @@ struct ContentView: View {
     }
 }
 
-struct BrandMark: View {
-    let size: CGFloat
-
-    var body: some View {
-        Image("BrandMark")
-            .resizable()
-            .renderingMode(.template)
-            .foregroundStyle(Color.brand)
-            .scaledToFit()
-            .frame(width: size, height: size)
-    }
-}
-
 /// The level updates several times a second. Keeping it in a leaf view means
 /// only this redraws, instead of every screen observing the coordinator.
 struct RecordingMeter: View {
