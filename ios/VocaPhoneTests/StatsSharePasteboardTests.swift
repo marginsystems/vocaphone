@@ -6,7 +6,7 @@ import UIKit
 @MainActor
 struct StatsSharePasteboardTests {
     @Test func xPayloadCopiesTheCardBeforeItsText() {
-        let card = UIGraphicsImageRenderer(size: CGSize(width: 4, height: 4)).pngData { context in
+        let card = UIGraphicsImageRenderer(size: CGSize(width: 4, height: 4)).image { context in
             UIColor.green.setFill()
             context.fill(CGRect(x: 0, y: 0, width: 4, height: 4))
         }
